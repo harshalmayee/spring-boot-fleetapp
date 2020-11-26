@@ -14,4 +14,6 @@ public interface EmployeeService {
     public Employee getEmployeeById(int id);
 
     void delete(int id);
+
+    Employee findByUserName(String userName);
 }
