@@ -84,6 +84,43 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+
+		<!-- Cucumber Dependencies Start -->
+
+		<!-- cucumber-java8: This dependency helps to create Cucumber Step Definitions as Lambdas (pure functions) -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java8</artifactId>
+			<version>4.2.0</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- cucumber-spring: To Execute Cucumber scripts in Spring Context. -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-spring</artifactId>
+			<version>4.2.0</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- cucumber-junit: To run Cucumber test scenarios as JUnit tests -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>4.2.0</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- cucumber-reporting (Optional): To generate a HTML Report from cucumber-report.json -->
+		<dependency>
+			<groupId>net.masterthought</groupId>
+			<artifactId>cucumber-reporting</artifactId>
+			<version>4.2.3</version>
+		</dependency>
+
+
+		<!-- Cucumber Dependencies End -->
+
 		<!--<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-test</artifactId>
